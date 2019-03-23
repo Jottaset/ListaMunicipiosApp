@@ -1,16 +1,19 @@
 ﻿<Properties StartupConfiguration="{7185E028-0880-449E-98CC-CDE15C94ACE2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ListaMunicipioApp/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListaMunicipioApp/MainPage.xaml.cs">
     <Files>
-      <File FileName="ListaMunicipioApp/MainPage.xaml.cs" Line="19" Column="54" />
-      <File FileName="ListaMunicipioApp/MainPage.xaml" Line="21" Column="5" />
+      <File FileName="ListaMunicipioApp/MainPage.xaml.cs" Line="16" Column="69" />
+      <File FileName="ListaMunicipioApp/MainPage.xaml" Line="18" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ListaMunicipioApp" expanded="True">
             <Node name="ListaMunicipioApp" expanded="True">
+              <Node name="Model" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

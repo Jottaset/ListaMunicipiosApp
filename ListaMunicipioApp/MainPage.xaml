@@ -18,7 +18,14 @@
                x:Name="lbl_uf"/>
         
         
-        <ListView x:Name="listaMunicipios"/>
+        <ListView x:Name="listaMunicipios">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding nome}"
+                              Detail="{Binding codigo}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         
     </StackLayout>
     
